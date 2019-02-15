@@ -3,15 +3,10 @@ public class Main {
     public static void main(String... args) {
         Parser parser = Parser.getInstance();
         parser.setFile("./example.csv", "header1", "header2");
-        printMatrix(parser.parse(), parser.getHeaders());
-
-        System.out.println();
-
-        parser.setHeaders("header3", "header4");
-        printMatrix(parser.parse(), parser.getHeaders());
+        printMatrix(parser.parse());
     }
 
-    private static void printMatrix(double[][] mat, String... headers) {
+    private static void printMatrix(double[][] mat) {
         System.out.println("{");
         for (int i = 0; i < mat.length; i++) {
             System.out.print("\t{");
