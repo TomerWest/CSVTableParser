@@ -1,0 +1,7 @@
+-classpath '/home/shaked/Git/CSVTableParser/build/classes/java/main:/home/shaked/Git/CSVTableParser/build/resources/main:/home/shaked/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-csv/1.6/22b3c2f901af973a8ec4f24e80c8c0c77a600b79/commons-csv-1.6.jar'
+-d '/home/shaked/Git/CSVTableParser/build/docs/javadoc'
+-doctitle 'csvParser API'
+-quiet 
+-windowtitle 'csvParser API'
+'/home/shaked/Git/CSVTableParser/src/main/java/Parser.java'
+'/home/shaked/Git/CSVTableParser/src/main/java/Main.java'
