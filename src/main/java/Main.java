@@ -13,7 +13,7 @@ public class Main {
             for (int j = 0; j < mat[i].length; j++) {
                 System.out.print(mat[i][j] + (j != mat[i].length-1 ? ",\t" : ""));
             }
-            System.out.println("}");
+            System.out.println("}"+(i < mat.length-1 ? "," : "" ));
         }
         System.out.println("}");
     }
